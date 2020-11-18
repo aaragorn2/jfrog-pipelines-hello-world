@@ -1,14 +1,17 @@
-# template: true   # required for local templates
-valuesFilePath: ./values.yml
+# template: true   # required for local templates 
+# valuesFilePath: ./values.yml
 
 resources:
   - name: myFirstRepo
     type: GitRepo
     configuration:
       # SCM integration where the repository is located
-      gitProvider: {{ Values.myRepo.gitProvider }}
+      # gitProvider: {{ Values.myRepo.gitProvider }}
       # Repository path, including org name/repo name
-      path: {{ Values.myRepo.path }} #manishas-jfrog/jfrog-pipelines-hello-world    # replace with your repository name
+      # path: {{ Values.myRepo.path }} #manishas-jfrog/jfrog-pipelines-hello-world    # replace with your repository name
+      gitProvider: zen_git
+      # Repository path, including org name/repo name
+      path: aaragorn2/jfrog-pipelines-hello-world
       branches:
         # Specifies which branches will trigger dependent steps
         include: master
