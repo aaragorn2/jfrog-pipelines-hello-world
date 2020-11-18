@@ -6,7 +6,7 @@ resources:
       # gitProvider: {{ Values.myRepo.gitProvider }}
       # Repository path, including org name/repo name
       # path: {{ Values.myRepo.path }} #manishas-jfrog/jfrog-pipelines-hello-world    # replace with your repository name
-      gitProvider: aaragorn2   # replace with your integration
+      gitProvider: zen1   # replace with your integration
       path: aaragorn2/jfrog-pipelines-hello-world    # replace with your repository name
       branches:
         # Specifies which branches will trigger dependent steps
