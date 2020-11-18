@@ -1,4 +1,5 @@
 myRepo:
-  gitProvider: manishas_jfrog_github
-  path: manishas-jfrog/jfrog-pipelines-hello-world
-  
+  # gitProvider: manishas_jfrog_github
+  # path: manishas-jfrog/jfrog-pipelines-hello-world
+  gitProvider: zen1
+  path: aaragorn2/jfrog-pipelines-hello-world  
